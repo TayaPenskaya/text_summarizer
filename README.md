@@ -1,6 +1,27 @@
 # text_summarizer
 Models for text summarization task
 
+## Launching
+
+- build and run module:
+
+```
+docker build -t summary .
+docker run -d -p 8000:8000  --rm --name summary_running summary
+```
+
+- reading logs:
+
+```
+docker logs -f summary_running
+```
+
+- stopping:
+
+```
+docker stop summary_running
+```
+
 ## Usage
 
 - getting summary
