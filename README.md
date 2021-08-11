@@ -1,6 +1,8 @@
 # text_summarizer
 Models for text summarization task
 
+[Solution](text_summarization.ipynb)
+
 ## Launching
 
 - build and run module:
