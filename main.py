@@ -14,4 +14,4 @@ sum_model = Summarizer(custom_model=model, custom_tokenizer=tokenizer)
 
 @app.get("/get_summary")
 def sum_text(t: Optional[str] = None):
-    return sum_model(t)
+    return {"summary": sum_model(t)}
